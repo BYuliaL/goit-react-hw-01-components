@@ -1,0 +1,57 @@
+.profile {
+  background-color: floralwhite;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.description {
+  text-align: center;
+  padding: 15px;
+}
+
+.description__name {
+  font-size: 30px;
+  line-height: 15px;
+}
+
+.description__tag {
+  font-size: 25px;
+  line-height: 15px;
+}
+
+.description__location {
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.description__avatar {
+  border-radius: 50%;
+  background-color: bisque;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-left: 0;
+  background-color: chocolate;
+  padding: 15px;
+  margin: 0;
+}
+.stats__item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.stats__quantity {
+  display: flex;
+  justify-content: center;
+}
+
+.stats__label {
+  font-size: 20px;
+  line-height: 15px;
+
+  padding-bottom: 5px;
+}

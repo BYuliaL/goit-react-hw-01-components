@@ -1,0 +1,21 @@
+.transactionHistory {
+  table-layout: fixed;
+  max-width: 600px;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rosybrown;
+  margin: 15px auto;
+  background-color: seashell;
+}
+
+.transactionHistory__head {
+  letter-spacing: 6px;
+  background-color: teal;
+}
+
+th,
+td {
+  height: 5px;
+  text-align: center;
+  border: 1px solid rosybrown;
+}

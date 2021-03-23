@@ -1,10 +1,10 @@
-import React from 'react';
 import Avatar from './Avatar';
 import Stats from './Stats';
+import styles from './Profile.module.css';
 
 const Profile = ({ user }) => {
   return (
-    <div className="profile">
+    <div className={styles.profile}>
       <Avatar
         name={user.name}
         tag={user.tag}
