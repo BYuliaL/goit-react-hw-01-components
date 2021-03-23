@@ -21,7 +21,7 @@
 .statistics__item {
   display: flex;
   flex-direction: column;
-  background-color: ghostwhite;
+  /* background-color: ghostwhite; */
   padding: 5px;
   box-shadow: 5px 9px 20px rgba(185, 19, 60, 0.15);
   border-radius: 25%;
