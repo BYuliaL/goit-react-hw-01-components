@@ -1,0 +1,35 @@
+.friendItem__statusTrue {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+.friendItem__statusFalse {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.friendItem__avatar {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.friendItem__name {
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.friendItem__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 5px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.friendItem__item:not(:last-child) {
+  margin-bottom: 20px;
+}

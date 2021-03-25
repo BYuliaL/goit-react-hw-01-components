@@ -5,39 +5,3 @@
   padding: 25px;
   background-color: wheat;
 }
-
-.friendList__item:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-.friendList__statusTrue {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: green;
-}
-.friendList__statusFalse {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: red;
-}
-
-.friendList__avatar {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.friendList__name {
-  line-height: 25px;
-  font-size: 20px;
-}
-
-.friendItem__item {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: whitesmoke;
-  padding: 5px;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
-}
